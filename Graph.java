@@ -16,5 +16,10 @@ class Graph {
         }
         queue = new LinkedList<Integer>();
     }
+    
+    void addEdge(int v,int w)
+    {
+        adj[v].add(w);                        
+    }
 }
 
